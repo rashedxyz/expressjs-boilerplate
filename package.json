@@ -1,0 +1,21 @@
+{
+  "name": "expressjs-boilerplate",
+  "version": "1.0.0",
+  "description": "Starter kit for creating expressjs apps",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "Rashed Mahmud",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
